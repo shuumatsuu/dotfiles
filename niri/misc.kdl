@@ -1,0 +1,19 @@
+// misc settings i dont have a file to put in
+hotkey-overlay {
+    skip-at-startup
+}
+cursor {
+    xcursor-theme "PJSK Nene Animated"
+    xcursor-size 32
+}
+
+clipboard {
+    disable-primary
+}
+screenshot-path null
+
+environment {
+	XCURSOR_THEME "PJSK Nene Animated"
+	XCURSOR_SIZE "32"
+	QT_QPA_PLATFORM "wayland"
+}

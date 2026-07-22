@@ -1,0 +1,7 @@
+// debug. only really here to clean up
+// the base config file.
+
+debug {
+  // Allows notification actions and window activation from Noctalia.
+  honor-xdg-activation-with-invalid-serial
+}

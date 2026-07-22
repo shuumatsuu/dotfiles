@@ -1,0 +1,31 @@
+# Please note not all available settings / options are set.
+# For a full list, see the wiki
+
+# ┊ ┊ ┊ ┊ ┊
+# ┊ ┊ ✫ ˚♡ ⋆｡ ❀
+# ┊ ☪︎⋆
+# ⊹  CONFIG SOURCES
+# ┊ . ˚
+# ✧
+# source = ~/.config/hypr/mocha.conf
+# source = ~/.config/hypr/everviolet-spring.conf
+# source = ~/.config/hypr/rose-pine.conf
+source = ~/.config/hypr/macchiato.conf
+source = ~/.config/hypr/hyprland-configs/windowrules.conf
+source = ~/.config/hypr/hyprland-configs/autostart.conf
+source = ~/.config/hypr/hyprland-configs/monitors.conf
+source = ~/.config/hypr/hyprland-configs/keywords.conf
+source = ~/.config/hypr/hyprland-configs/envar.conf
+source = ~/.config/hypr/hyprland-configs/perm.conf
+source = ~/.config/hypr/hyprland-configs/looks.conf
+source = ~/.config/hypr/hyprland-configs/input.conf
+source = ~/.config/hypr/hyprland-configs/keybinds.conf
+source = ~/.config/hypr/hyprland-configs/windowspace-rules.conf
+source = ~/.config/hypr/hyprland-configs/keywords.conf
+
+
+# Ensure the XDG portal can get the required variables on startup
+exec-once=dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
+
+source = /home/lin/.config/hypr/noctalia/noctalia-colors.conf
+

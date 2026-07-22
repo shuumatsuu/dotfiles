@@ -1,0 +1,27 @@
+
+// niri layout.
+// https://niri-wm.github.io/niri/Configuration:-Layout
+
+layout {
+    // window gap size.
+    gaps 20
+	// set background color to transparent so you can see the backdrop at all times
+	background-color "transparent"
+    // command is self explanatory. wiki for options.
+    center-focused-column "never"
+    default-column-width { proportion 0.9; }
+    preset-column-widths {
+            proportion 0.5
+            proportion 0.66667
+            proportion 0.9
+            proportion 1.0
+        }
+}
+window-rule {
+  match is-floating=false
+  // Rounded corners for a modern look.
+  geometry-corner-radius 20
+
+  // Clips window contents to the rounded corner boundaries.
+  clip-to-geometry true
+}

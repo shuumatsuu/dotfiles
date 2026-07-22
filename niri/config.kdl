@@ -1,0 +1,19 @@
+// This config is in the KDL format: https://kdl.dev
+// "/-" comments out the following node.
+// Check the wiki for a full description of the configuration:
+// https://niri-wm.github.io/niri/Configuration:-Introduction
+// this file will be used just for includes because its pretty
+// and i like configuring specific sections as files
+include "inputs.kdl"
+include "displays.kdl"
+include "layout.kdl"
+include "debug.kdl"
+include "startups.kdl"
+include "binds.kdl"
+include "visuals.kdl"
+include "noctalia-niri.kdl"
+include "misc.kdl"
+include "anims.kdl"
+include "noctalia.kdl"
+include "windowrules.kdl"
+
